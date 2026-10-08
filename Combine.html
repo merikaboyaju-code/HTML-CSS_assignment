@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRR Optics</title>
+
+    <style>
+
+        * {
+            margin: 0px;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        main {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            color: yellowgreen;
+            background-color: pink;
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        .nav-li a:hover {
+            color: yellow;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        /* Product Card */
+
+        body {
+            background-color: aliceblue;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        .ProductCard {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .content {
+            width: 300px;
+            margin: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 10px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                        0 3px 6px rgba(0,0,0,0.22);
+            transition: 0.4s;
+            background: aliceblue;
+        }
+
+        .content:hover {
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+                        0 3px 6px rgba(0,0,0,0.23);
+            transform: translate(0px, -8px);
+        }
+
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: center;
+            color: black;
+            padding: 0 8px;
+        }
+
+        h6 {
+            font-size: 26px;
+            text-align: center;
+            color: black;
+            margin: 0;
+        }
+
+        .add-to-cart {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .add-to-cart:hover {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>RRR Optics</h1>
+
+    <nav class="navbar">
+
+        <ul class="nav-li">
+
+            <li>
+                <a href="NavBar.html">Home</a>
+            </li>
+
+            <li>
+                <a href="about.html">About</a>
+            </li>
+
+            <li>
+                <a href="servi">Services</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <h3>Home page of RR</h3>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eligendi quia similique eaque rerum molestiae aliquid!
+            Veniam tempora eveniet odit est.
+        </p>
+
+    </main>
+
+
+    <div class="ProductCard">
+
+        <div class="content">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7u2LimzBSIWN0iJEbPltF03Ae744WJYuwuuQYbpv9Q&s=10">
+
+            <h3>UNISEX SUNGLASSES</h3>
+
+            <p>
+                This can be worn by both genders.
+            </p>
+
+            <h6>Rs 800</h6>
+
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
+
+        </div>
+
+
+        <div class="content">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrvucNyk0pIN8pd1vFgCNL6XH7vdcggCLX1mE1ihsR3A&s=10">
+
+            <h3>MENS SUNGLASSES</h3>
+
+            <p>
+                FOR MEN ONLY
+            </p>
+
+            <h6>Rs 1500</h6>
+
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
